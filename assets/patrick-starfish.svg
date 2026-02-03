@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Patrick starfish">
+  <defs>
+    <radialGradient id="g" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#ff93c4"/>
+      <stop offset="1" stop-color="#ff4fa1"/>
+    </radialGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" rx="28" fill="#0b0f14"/>
+
+  <!-- starfish body -->
+  <path filter="url(#s)" fill="url(#g)" d="M128 22
+    C115 40 108 57 103 80
+    C85 68 68 61 48 58
+    C56 78 63 94 80 112
+    C57 118 40 125 22 138
+    C40 151 57 158 80 164
+    C63 182 56 198 48 218
+    C68 215 85 208 103 196
+    C108 219 115 236 128 254
+    C141 236 148 219 153 196
+    C171 208 188 215 208 218
+    C200 198 193 182 176 164
+    C199 158 216 151 234 138
+    C216 125 199 118 176 112
+    C193 94 200 78 208 58
+    C188 61 171 68 153 80
+    C148 57 141 40 128 22 Z"/>
+
+  <!-- eyes -->
+  <circle cx="103" cy="128" r="16" fill="#e6edf3"/>
+  <circle cx="153" cy="128" r="16" fill="#e6edf3"/>
+  <circle cx="108" cy="131" r="6" fill="#0b0f14"/>
+  <circle cx="158" cy="131" r="6" fill="#0b0f14"/>
+
+  <!-- little goggles/nerd vibe -->
+  <circle cx="103" cy="128" r="20" fill="none" stroke="#8bd5ff" stroke-width="3" opacity="0.9"/>
+  <circle cx="153" cy="128" r="20" fill="none" stroke="#8bd5ff" stroke-width="3" opacity="0.9"/>
+  <path d="M123 128h10" stroke="#8bd5ff" stroke-width="3" opacity="0.9"/>
+
+  <!-- smile -->
+  <path d="M108 156c10 12 30 12 40 0" fill="none" stroke="#0b0f14" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- tiny beaker -->
+  <path d="M194 176h-10v-22h-8v-8h26v8h-8v22z" fill="#9fb1c1" opacity="0.8"/>
+  <path d="M186 176c-7 8-6 16 5 22h12c11-6 12-14 5-22z" fill="#46d39a" opacity="0.85"/>
+</svg>
