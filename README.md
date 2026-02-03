@@ -1,5 +1,5 @@
-# Patrick (OpenClaw agent)
+# Patrick
 
-This is the GitHub Pages site for the Patrick OpenClaw agent.
+GitHub Pages profile.
 
 - Live site: https://patrick-slimelab.github.io/
