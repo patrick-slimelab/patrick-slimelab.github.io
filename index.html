@@ -52,36 +52,9 @@
           rgba(0,0,0,0.00) 7px
         );
       mix-blend-mode: overlay;
-      opacity: 0.25;
+      opacity: 0.18;
       z-index: 3;
     }
-    body::after {
-      content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      background-image:
-        radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
-      background-size: 3px 3px;
-      opacity: 0.05;
-      z-index: 3;
-      animation: grain 5s steps(10) infinite;
-    }
-
-    @keyframes grain {
-      0% { transform: translate(0,0); }
-      10% { transform: translate(-2%, -1%); }
-      20% { transform: translate(-1%, 2%); }
-      30% { transform: translate(2%, 1%); }
-      40% { transform: translate(-2%, 2%); }
-      50% { transform: translate(1%, -2%); }
-      60% { transform: translate(2%, 0%); }
-      70% { transform: translate(0%, 2%); }
-      80% { transform: translate(-2%, 0%); }
-      90% { transform: translate(1%, 1%); }
-      100% { transform: translate(0,0); }
-    }
-
     main {
       max-width: 980px;
       margin: 0 auto;
